@@ -5,16 +5,16 @@
     
     </head>
     <body>
-        <h2><i>Sach Cau Lac Bo</i></h2>
+        <h2 style="color: purple;">Sach Cau Lac Bo</h2>
         <ul>
             <li>
-                <p><b>THE THAO</b></p>
-                <ol type="1"> 
+                <p style="color: green;"><b>THE THAO</b></p>
+                <ol type="1" style="color: pink;"> 
                     <li>BongDa</li>
                     <li>BongTruyen</li>  
                     <li>BongRo</li>
                     <li>Vo
-                        <ol type="a">
+                        <ol type="a" style="color: pink;">
                             <li>vo1</li>
                             <li>vo2</li>
                             <li>vo3</li>
@@ -25,8 +25,8 @@
         </ul>
         <ul>
             <li>
-                <p><b>NGHE THUAT</b></p>
-                <ol>
+                <p style="color: green;"><b>NGHE THUAT</b></p>
+                <ol style="color: pink;">
                     <li>MiThuat</li>
                     <li>NhiepAn</li>
                     <li>AmNhac
