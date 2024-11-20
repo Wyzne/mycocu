@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Bang 3
+        </title>
+    </head>
+    <body> 
+        <table style="background-color: grey;" >
+            <tr style="background-color: white;">
+                <th rowspan="3"><a style="color: purple;">DiemThi</a></th>
+                <th colspan="3"><a style="color: purple;">HoVaTen</a></th>
+            </tr>
+            <tr style="background-color: white; color: purple;">
+                <td>Toan</td>
+                <td>Li</td>
+                <td>Hoa</td>
+            </tr>
+        </table>
+    </body>
+
+</html>
