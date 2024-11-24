@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+    </head>
+    <body>
+        <form method="post" action="Noi nhan du lieu">
+            <div>
+                <label for="fname">TenMonAn : </label>
+                <input type="text"; id="fname"; name="fname">    
+            </div>
+            <div>
+                <label for="dongia">DonGia : </label>
+                <input type="text"; id="donggia"; name="dongia">  
+            </div>
+            <div>
+                <label for="soluong">SoLuong : </label>
+                <input type="text"; id="soluong"; name="soluong">    
+            </div>
+            <div>
+                <select name="King">
+                    <option value="Pho">Pho</option>
+                    <option value="Bun">Bun</option>
+                    <option value="Mi">Mi</option>
+                </select>
+            </div>
+            <div type="radio" >
+
+            </div>
+            <input  type="submit">
+            <input type="reset">    
+        </form>
+    </body>
+</html>
