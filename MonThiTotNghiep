@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+    </head>
+    <body>
+        <h2>Dang Ki Mon Thi Tot Nghiep</h2>
+        <form method="post" action="Noi nhan du lieu">
+            <div>
+                <label for="hovaten">Ho Va Ten : </label>
+                <input type="text" id="hovaten"><br>
+            </div>
+            <div>
+                <label for="cccd">CCCD : </label>
+                <input type="text" id="cccd"><br>
+            </div>
+            <div>
+                <label for="ngaysinh">Ngay Sinh</label>
+                <input type="date" id="ngaysinh"><br>
+            </div>
+            <div>
+                <label for="gioi tinh">Gioi Tinh : </label>
+                <input type="radio" name="role" value="Nam"> Nam
+                <input type="radio" name="role" value="Nu"> Nu<br>
+            </div> 
+            <div>
+                <p>Mon Thi:</p>
+                <label for="monthi"> </label>
+                <input type="radio" value="NguVan">NguVan
+                <input type="radio" value="Toan">Toan
+                <input type="radio" value="NgoaiNgu">NgoaiNgu
+            </div>
+            <div>
+                <p>ToHop : </p>
+                <select name="tohop">
+                    <option value="khtn">KHTN</option>
+                    <option value="khxh">KHXH</option>
+                    <option value="nghihoc">NghiHoc</option>
+                </select>
+            </div>
+            <input  type="submit" value="GuiThongTin" > 
+        </form>
+    </body>
+</html>
